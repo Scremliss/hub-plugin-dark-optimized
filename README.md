@@ -1,34 +1,37 @@
-# Dark Optimized — тёмная тема для Agents Hub
+# Dark Optimized — a dark theme for Agents Hub
 
-Плагин без кода: только тема. Нейтральный тёмно-серый фон, светлый текст с высоким контрастом, спокойные акценты —
-палитра в духе тёмной темы Dark+ редактора (VS Code / Cursor). Для долгой работы вечером: глазам мягче, чем чёрный.
+A plugin without code: only a theme. A neutral dark gray background, light high-contrast text, calm accents — a
+palette in the spirit of the Dark+ dark theme of the editor (VS Code / Cursor). For long work in the evening: easier on
+the eyes than black.
 
-![Тема на странице хаба](screenshot.png)
+![The theme on the hub page](screenshot.png)
 
-## Цвета
+## Colors
 
-| Что | Цвет |
+| What | Color |
 |---|---|
-| Фон | `#363636` |
-| Панели | `#3e3e3e` |
-| Блоки | `#444444` |
-| Рамки | `#555555` |
-| Текст | `#f0f0f0` (контраст с фоном около 9:1) |
-| Акцент | `#4aa3ff` |
-| Успех / предупреждение / ошибка | `#89d185` / `#e0b83c` / `#ff6b6b` |
-| Код | `#e0a98f` |
+| Background | `#363636` |
+| Panels | `#3e3e3e` |
+| Blocks | `#444444` |
+| Borders | `#555555` |
+| Text | `#f0f0f0` (contrast with the background about 9:1) |
+| Accent | `#4aa3ff` |
+| Success / warning / error | `#89d185` / `#e0b83c` / `#ff6b6b` |
+| Code | `#e0a98f` |
 
-## Как поставить
+## Install
 
-В Agents Hub: «Настройки» → «Плагины» → «Найти» → «Dark Optimized», затем «Настройки» → «Тема» → «Dark Optimized».
-Или хабу: «поставь тему dark-optimized» (`hub market install <аккаунт>/<репо>`). Выбор темы хранится в браузере.
+In Agents Hub: "Settings" → "Plugins" → "Find" → "Dark Optimized", then "Settings" → "Look" → "Theme" → "Dark Optimized".
+Or tell the hub: "install the dark-optimized theme" (`hub market install <account>/<repo>`). The theme choice is kept
+in the browser.
 
-## Свои цвета
+## Your own colors
 
-Откройте `dark-optimized.json`: значения — переменные `tokens.css` страницы (`background`, `foreground`, `primary`, …).
-Не заданные цвета хаб выводит из фона, текста и акцента. Формат — в `EXTENDING.md` общего хаба («Темы»).
+Open `dark-optimized.json`: the values are the page's `tokens.css` variables (`background`, `foreground`, `primary`, …).
+Colors that are not set are derived by the hub from the background, the text and the accent. The format is in the hub's
+`EXTENDING.md` ("Themes").
 
-## Благодарности
+## Credits
 
-Идея палитры — тёмные темы Dark+ (VS Code) и Dark+ Optimized; цвета здесь свои, подобранные под страницу хаба.
-Лицензия — MIT.
+The palette idea comes from the Dark+ (VS Code) and Dark+ Optimized dark themes; the colors here are our own, picked for
+the hub page. License — MIT.
